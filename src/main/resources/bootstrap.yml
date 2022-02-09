@@ -1,0 +1,15 @@
+server:
+  port: 8081 
+
+spring:
+	cloud:
+		server:
+			git:
+			# url de repositorio con los archivos yml de los proyectos
+			uri: https://github.com/RedS6X/springcloud.git
+			# especificamos donde esta los archivos de configuracion de nuestros proyectos
+			searchPaths: config-data
+#security:
+#	user:
+#		name: root
+#		password: xXxXxXx
